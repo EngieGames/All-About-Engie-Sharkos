@@ -3,6 +3,5 @@
   "textures": {
     "all": "aae_sharkos:blocks/structurespawn",
     "particle": "aae_sharkos:blocks/structurespawn"
-  },
-  "render_type": "solid"
+  }
 }

@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.aaesharkos.procedures.EnchantedEngieCookiePlayerFinishesUsingItemProcedure;
@@ -34,7 +35,7 @@ public class EnchantedEngieCookieItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Most powerful cookie known to man.."));
+		list.add(new TextComponent("Most powerful cookie known to man.."));
 	}
 
 	@Override

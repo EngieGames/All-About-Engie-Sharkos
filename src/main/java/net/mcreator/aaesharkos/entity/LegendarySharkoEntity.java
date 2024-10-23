@@ -4,9 +4,13 @@ package net.mcreator.aaesharkos.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
@@ -22,6 +26,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
@@ -38,7 +43,13 @@ import net.mcreator.aaesharkos.procedures.LegendarySharkoTAPProcedure;
 import net.mcreator.aaesharkos.init.AaeSharkosModItems;
 import net.mcreator.aaesharkos.init.AaeSharkosModEntities;
 
+@Mod.EventBusSubscriber
 public class LegendarySharkoEntity extends PathfinderMob {
+	@SubscribeEvent
+	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(AaeSharkosModEntities.LEGENDARY_SHARKO.get(), 10, 1, 4));
+	}
+
 	public LegendarySharkoEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AaeSharkosModEntities.LEGENDARY_SHARKO.get(), world);
 	}

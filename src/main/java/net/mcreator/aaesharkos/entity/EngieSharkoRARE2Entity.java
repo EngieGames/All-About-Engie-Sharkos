@@ -4,9 +4,13 @@ package net.mcreator.aaesharkos.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
@@ -21,6 +25,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
@@ -37,7 +42,13 @@ import net.mcreator.aaesharkos.procedures.EngieSharkoRARE2TAPProcedure;
 import net.mcreator.aaesharkos.init.AaeSharkosModItems;
 import net.mcreator.aaesharkos.init.AaeSharkosModEntities;
 
+@Mod.EventBusSubscriber
 public class EngieSharkoRARE2Entity extends PathfinderMob {
+	@SubscribeEvent
+	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(AaeSharkosModEntities.ENGIE_SHARKO_RARE_2.get(), 1, 1, 8));
+	}
+
 	public EngieSharkoRARE2Entity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AaeSharkosModEntities.ENGIE_SHARKO_RARE_2.get(), world);
 	}

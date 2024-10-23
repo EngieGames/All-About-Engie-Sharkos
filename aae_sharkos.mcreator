@@ -548,7 +548,6 @@
       "registry_name": "sharko_house",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/sharko_house_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/world/features/SharkoHouseFeature.java"
         ]
       }
@@ -878,7 +877,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aae_sharkos/models/item/sharko_spawn_egg.json",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/entity/SharkoEntity.java",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/SharkoRenderer.java"
         ]
@@ -1131,7 +1129,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_spawn_egg.json",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/albino_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/AlbinoSharkoRenderer.java",
           "src/main/java/net/mcreator/aaesharkos/entity/AlbinoSharkoEntity.java"
         ]
@@ -1309,8 +1306,7 @@
         "files": [
           "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/RareSharkoEntity.java",
-          "src/main/java/net/mcreator/aaesharkos/client/renderer/RareSharkoRenderer.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/rare_sharko_biome_modifier.json"
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/RareSharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos"
@@ -1566,8 +1562,7 @@
         "files": [
           "src/main/java/net/mcreator/aaesharkos/entity/LegendarySharkoEntity.java",
           "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/aaesharkos/client/renderer/LegendarySharkoRenderer.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/legendary_sharko_biome_modifier.json"
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/LegendarySharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos"
@@ -1783,7 +1778,6 @@
         "files": [
           "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/MythicSharkoEntity.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/mythic_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/MythicSharkoRenderer.java"
         ]
       },
@@ -2257,7 +2251,6 @@
       "registry_name": "exotic_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/exotic_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/entity/ExoticSharkoEntity.java",
           "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/ExoticSharkoRenderer.java"
@@ -2512,7 +2505,6 @@
       "registry_name": "engie_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/engie_sharko_biome_modifier.json",
           "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoEntity.java",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRenderer.java"
@@ -3091,8 +3083,7 @@
       "registry_name": "nothing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/aaesharkos/world/features/NothingFeature.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/nothing_biome_modifier.json"
+          "src/main/java/net/mcreator/aaesharkos/world/features/NothingFeature.java"
         ]
       }
     },
@@ -3341,8 +3332,7 @@
         "files": [
           "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARE2Renderer.java",
           "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_2_spawn_egg.json",
-          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARE2Entity.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json"
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARE2Entity.java"
         ]
       },
       "path": "~/Sharkos"
@@ -3594,7 +3584,6 @@
       "registry_name": "engie_sharko_rare",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/engie_sharko_rare_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARERenderer.java",
           "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRAREEntity.java"
@@ -3775,7 +3764,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aae_sharkos/models/item/big_sharko_spawn_egg.json",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/entity/BigSharkoEntity.java",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigSharkoRenderer.java"
         ]
@@ -3792,7 +3780,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigAlbinoSharkoRenderer.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_albino_sharko_biome_modifier.json",
           "src/main/resources/assets/aae_sharkos/models/item/big_albino_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/BigAlbinoSharkoEntity.java"
         ]
@@ -3808,7 +3795,6 @@
       "registry_name": "big_rare_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_rare_sharko_biome_modifier.json",
           "src/main/resources/assets/aae_sharkos/models/item/big_rare_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigRareSharkoRenderer.java",
           "src/main/java/net/mcreator/aaesharkos/entity/BigRareSharkoEntity.java"
@@ -3825,7 +3811,6 @@
       "registry_name": "big_legendary_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_legendary_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigLegendarySharkoRenderer.java",
           "src/main/java/net/mcreator/aaesharkos/entity/BigLegendarySharkoEntity.java",
           "src/main/resources/assets/aae_sharkos/models/item/big_legendary_sharko_spawn_egg.json"
@@ -3842,7 +3827,6 @@
       "registry_name": "big_mythic_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_mythic_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigMythicSharkoRenderer.java",
           "src/main/resources/assets/aae_sharkos/models/item/big_mythic_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/BigMythicSharkoEntity.java"
@@ -3861,8 +3845,7 @@
         "files": [
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigExoticSharkoRenderer.java",
           "src/main/java/net/mcreator/aaesharkos/entity/BigExoticSharkoEntity.java",
-          "src/main/resources/assets/aae_sharkos/models/item/big_exotic_sharko_spawn_egg.json",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_exotic_sharko_biome_modifier.json"
+          "src/main/resources/assets/aae_sharkos/models/item/big_exotic_sharko_spawn_egg.json"
         ]
       },
       "path": "~/Sharkos"
@@ -3877,7 +3860,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/aaesharkos/entity/BigEngieSharkoEntity.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_engie_sharko_biome_modifier.json",
           "src/main/resources/assets/aae_sharkos/models/item/big_engie_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigEngieSharkoRenderer.java"
         ]
@@ -3894,7 +3876,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigRareEngieSharkoRenderer.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_rare_engie_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/aaesharkos/entity/BigRareEngieSharkoEntity.java",
           "src/main/resources/assets/aae_sharkos/models/item/big_rare_engie_sharko_spawn_egg.json"
         ]
@@ -3911,7 +3892,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/aaesharkos/client/renderer/BigRareEngieSharko2Renderer.java",
-          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_rare_engie_sharko_2_biome_modifier.json",
           "src/main/resources/assets/aae_sharkos/models/item/big_rare_engie_sharko_2_spawn_egg.json",
           "src/main/java/net/mcreator/aaesharkos/entity/BigRareEngieSharko2Entity.java"
         ]
@@ -3945,9 +3925,9 @@
       "item.aae_sharkos.engie_sharko_rare_2_stay_spawn_egg": "Engie Sharko Spawn Egg",
       "item.aae_sharkos.golden_cookie": "Golden Cookie",
       "item.aae_sharkos.big_rare_sharko_spawn_egg": "Big Rare Sharko Spawn Egg",
-      "item.aae_sharkos.albino_sharko_cloth": "Albino Sharko Cloth",
-      "entity.aae_extra.sharko_attack": "Sharko",
       "item.aae_extra.mythic_sharko_cloth": "Mythic Sharko Cloth",
+      "entity.aae_extra.sharko_attack": "Sharko",
+      "item.aae_sharkos.albino_sharko_cloth": "Albino Sharko Cloth",
       "item.aae_extra.engie_sharko_rare_2_plush": "Sharko Plush",
       "item.aae_extra.sharko_cloth": "Sharko Cloth",
       "item.aae_extra.exotic_sharko_attack_spawn_egg": "Exotic Sharko Spawn Egg",
@@ -3956,8 +3936,8 @@
       "entity.aae_sharkos.mythic_sharko_tamed": "Mythic Sharko",
       "entity.aae_sharkos.big_engie_sharko": "Big Engie Sharko",
       "entity.aae_sharkos.albino_sharko_tamed": "Albino Sharko",
-      "item.aae_sharkos.mythic_sharko_stay_spawn_egg": "Mythic Sharko Spawn Egg",
       "item.aae_extra.sharko_stay_spawn_egg": "Sharko Spawn Egg",
+      "item.aae_sharkos.mythic_sharko_stay_spawn_egg": "Mythic Sharko Spawn Egg",
       "entity.aae_extra.engie_sharko_rare_2_attack": "Xgen Sharko",
       "item.aae_extra.exotic_shark_chestplate": "Exotic Sharko Chestplate",
       "entity.aae_extra.engie_sharko_attack": "Engie Sharko",
@@ -3973,12 +3953,12 @@
       "entity.aae_extra.engie_sharko_rare_2_tamed": "Xgen Sharko",
       "entity.aae_extra.exotic_sharko": "Exotic Sharko",
       "item.aae_sharkos.sharko_stay_spawn_egg": "Sharko Spawn Egg",
-      "entity.aae_extra.engie_sharko": "Engie Sharko",
       "entity.aae_extra.rare_sharko_attack": "Rare Sharko",
+      "entity.aae_extra.engie_sharko": "Engie Sharko",
       "item.aae_sharkos.engie_sharko_rare_tamed_spawn_egg": "Engie Sharko Spawn Egg",
       "item.aae_extra.albino_sharko_cloth": "Albino Sharko Cloth",
-      "item.aae_sharkos.rare_sharko_plush": "Rare Sharko Plush",
       "item.aae_sharkos.mythic_shark_helmet": "Mythic Sharko Helmet",
+      "item.aae_sharkos.rare_sharko_plush": "Rare Sharko Plush",
       "entity.aae_extra.mythic_sharko_tamed": "Mythic Sharko",
       "item.aae_extra.mythic_sharko_tamed_spawn_egg": "Mythic Sharko Spawn Egg",
       "item.aae_extra.albino_shark_boots": "Albino Sharko Boots",
@@ -3990,12 +3970,12 @@
       "item.aae_extra.mythic_shark_chestplate": "Mythic Sharko Chestplate",
       "item.aae_extra.exotic_shark_leggings": "Exotic Sharko Leggings",
       "item.aae_sharkos.rare_engie_sharko_plush": "Rare Engie Sharko Plush",
-      "entity.aae_sharkos.sharko_tamed": "Sharko",
       "item.aae_extra.albino_shark_chestplate": "Albino Sharko Chestplate",
+      "entity.aae_sharkos.sharko_tamed": "Sharko",
       "item.aae_sharkos.legendary_sharko_stay_spawn_egg": "Legendary Sharko Spawn Egg",
       "entity.aae_extra.rare_sharko": "Rare Sharko",
-      "entity.aae_sharkos.engie_sharko_attack": "Engie Sharko",
       "item.aae_sharkos.legendary_sharko_cloth": "Legendary Sharko Cloth",
+      "entity.aae_sharkos.engie_sharko_attack": "Engie Sharko",
       "entity.aae_sharkos.big_rare_engie_sharko": "Big Engie Sharko",
       "entity.aae_sharkos.mythic_sharko_attack": "Mythic Sharko",
       "item.aae_extra.albino_shark_helmet": "Albino Sharko Helmet",
@@ -4231,7 +4211,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Find the book.",
     "modElementsPackage": "net.mcreator.aaesharkos",
     "lockBaseModFiles": false

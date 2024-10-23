@@ -24,7 +24,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
 
 import net.mcreator.aaesharkos.procedures.EngieSharkoRAREPProcedure;
 import net.mcreator.aaesharkos.procedures.EngieSharkoRAREEntityDiesProcedure;
@@ -40,7 +40,7 @@ public class EngieSharkoRAREAttackEntity extends PathfinderMob {
 		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(Component.literal("[Attacking]"));
+		setCustomName(new TextComponent("[Attacking]"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 	}
