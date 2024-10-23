@@ -1,0 +1,76 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "asharkhelm",
+    "enableBody": true,
+    "textureBody": "asharkbody",
+    "enableLeggings": true,
+    "textureLeggings": "asharkleggings",
+    "enableBoots": true,
+    "textureBoots": "asharkboots",
+    "onHelmetTick": {
+      "name": "AlbinoSharkOnEquip"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Extras"
+    },
+    "armorTextureFile": "albinosharko_",
+    "helmetName": "Albino Sharko Helmet",
+    "bodyName": "Albino Sharko Chestplate",
+    "leggingsName": "Albino Sharko Leggings",
+    "bootsName": "Albino Sharko Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 75,
+    "damageValueHelmet": 750,
+    "damageValueBody": 750,
+    "damageValueLeggings": 750,
+    "damageValueBoots": 750,
+    "enchantability": 18,
+    "toughness": 2.0,
+    "knockbackResistance": 0.4,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "CUSTOM:AlbinoSharkoCloth"
+      }
+    ]
+  }
+}

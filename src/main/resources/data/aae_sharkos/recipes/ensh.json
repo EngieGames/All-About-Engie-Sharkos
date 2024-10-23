@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "1": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "2": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "3": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "5": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "6": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "7": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "8": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    }
+  },
+  "result": {
+    "item": "aae_sharkos:engie_shark_helmet",
+    "count": 1
+  }
+}

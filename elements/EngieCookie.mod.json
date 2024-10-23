@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "engiecookie",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Engie Cookie",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:Extras"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "2nd most powerful cookie yet."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "EngieCookiePlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 8,
+    "saturation": 40.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

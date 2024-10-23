@@ -1,0 +1,7 @@
+{
+  "parent": "aae_sharkos:custom/sharkoplushengie",
+  "textures": {
+    "0": "aae_sharkos:blocks/engiesharkoitem",
+    "particle": "aae_sharkos:items/plushtextdef"
+  }
+}

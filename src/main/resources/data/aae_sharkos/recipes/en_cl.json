@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aae_sharkos:exotic_sharko_cloth"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "aae_sharkos:engie_sharko_cloth"
+  }
+}

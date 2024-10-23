@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#19"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RareEngieSharkoPlush"
+    },
+    "name": "pl_8",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,4240 @@
+{
+  "mod_elements": [
+    {
+      "name": "Extras",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extras",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Shark",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/shark_chestplate.json",
+          "src/main/resources/assets/aae_sharkos/models/item/shark_helmet.json",
+          "src/main/java/net/mcreator/aaesharkos/item/SharkItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/shark_leggings.json",
+          "src/main/resources/assets/aae_sharkos/models/item/shark_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "SharkoCloth",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_cloth.json",
+          "src/main/java/net/mcreator/aaesharkos/item/SharkoClothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sh",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/sh.json"
+        ]
+      }
+    },
+    {
+      "name": "Sch",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/sch.json"
+        ]
+      }
+    },
+    {
+      "name": "Sl",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/sl.json"
+        ]
+      }
+    },
+    {
+      "name": "Sb",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/sb.json"
+        ]
+      }
+    },
+    {
+      "name": "AlbinoSharkoCloth",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_cloth.json",
+          "src/main/java/net/mcreator/aaesharkos/item/AlbinoSharkoClothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RareSharkoCloth",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_cloth.json",
+          "src/main/java/net/mcreator/aaesharkos/item/RareSharkoClothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RareSharkoEntityDies",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkoEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlbinoShark",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_shark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/albino_shark_boots.json",
+          "src/main/java/net/mcreator/aaesharkos/item/AlbinoSharkItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_shark_chestplate.json",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_shark_leggings.json",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_shark_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RareShark",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/RareSharkItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_shark_leggings.json",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_shark_helmet.json",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_shark_boots.json",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_shark_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Ash",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/ash.json"
+        ]
+      }
+    },
+    {
+      "name": "Asch",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/asch.json"
+        ]
+      }
+    },
+    {
+      "name": "Asl",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/asl.json"
+        ]
+      }
+    },
+    {
+      "name": "Asb",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/asb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rash",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/rash.json"
+        ]
+      }
+    },
+    {
+      "name": "Rasch",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/rasch.json"
+        ]
+      }
+    },
+    {
+      "name": "Rasl",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/rasl.json"
+        ]
+      }
+    },
+    {
+      "name": "Rasb",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/rasb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rac",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/rac.json"
+        ]
+      }
+    },
+    {
+      "name": "RareSharkHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shark_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RareSharkChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shark_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RareSharkLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shark_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RareSharkBootsTickEvent",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shark_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegendarySharkoCloth",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/LegendarySharkoClothItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_cloth.json"
+        ]
+      }
+    },
+    {
+      "name": "LegendarySharkHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_shark_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegendarySharkChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_shark_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegendarySharkLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_shark_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegendarySharkBootsTickEvent",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_shark_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lesh",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/lesh.json"
+        ]
+      }
+    },
+    {
+      "name": "Lesch",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/lesch.json"
+        ]
+      }
+    },
+    {
+      "name": "Lesl",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/lesl.json"
+        ]
+      }
+    },
+    {
+      "name": "Lesb",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/lesb.json"
+        ]
+      }
+    },
+    {
+      "name": "LegendaryShark",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_shark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_shark_boots.json",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_shark_leggings.json",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_shark_helmet.json",
+          "src/main/java/net/mcreator/aaesharkos/item/LegendarySharkItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_shark_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Lec",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/lec.json"
+        ]
+      }
+    },
+    {
+      "name": "SharkoHouse",
+      "type": "structure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/sharko_house_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/world/features/SharkoHouseFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "SharkoPlush",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_plush.json",
+          "src/main/java/net/mcreator/aaesharkos/item/SharkoPlushItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AlbinoSharkoPlush",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/AlbinoSharkoPlushItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "RareSharkoPlush",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/RareSharkoPlushItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "LegendarySharkoPlush",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/LegendarySharkoPlushItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "MythicSharkoPlush",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/MythicSharkoPlushItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "Mysh",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/mysh.json"
+        ]
+      }
+    },
+    {
+      "name": "Mysch",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/mysch.json"
+        ]
+      }
+    },
+    {
+      "name": "Mysl",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/mysl.json"
+        ]
+      }
+    },
+    {
+      "name": "Mysb",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/mysb.json"
+        ]
+      }
+    },
+    {
+      "name": "Myc",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "myc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/myc.json"
+        ]
+      }
+    },
+    {
+      "name": "MythicShark",
+      "type": "armor",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_shark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/MythicSharkItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_shark_chestplate.json",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_shark_leggings.json",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_shark_helmet.json",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_shark_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "MythicSharkoCloth",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_cloth.json",
+          "src/main/java/net/mcreator/aaesharkos/item/MythicSharkoClothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MythicalSharkHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythical_shark_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicalSharkHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MythicalSharkChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythical_shark_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicalSharkChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MythicalSharkLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythical_shark_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicalSharkLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MythicalSharkBootsTickEvent",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythical_shark_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicalSharkBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_cookie_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/GoldenCookiePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenCookie",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_cookie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/golden_cookie.json",
+          "src/main/java/net/mcreator/aaesharkos/item/GoldenCookieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnchantedGoldenCookie",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_cookie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/EnchantedGoldenCookieItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/enchanted_golden_cookie.json"
+        ]
+      }
+    },
+    {
+      "name": "GC",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/gc.json"
+        ]
+      }
+    },
+    {
+      "name": "EGC",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/egc.json"
+        ]
+      }
+    },
+    {
+      "name": "Sharko",
+      "type": "livingentity",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_spawn_egg.json",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/SharkoEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/SharkoRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoRightClicked",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkoRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoTamed",
+      "type": "livingentity",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/SharkoTamedEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/SharkoTamedRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoAttack",
+      "type": "livingentity",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/SharkoAttackEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_attack_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/SharkoAttackRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoStay",
+      "type": "livingentity",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/SharkoStayEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/SharkoStayRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_stay_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoAttackOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_attack_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkoAttackOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoTamedRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_tamedrp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkoTamedRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoTamedEntityIsHurt",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_tamedhp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkoTamedEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkoStayRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_stay_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkoStayRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharko",
+      "type": "livingentity",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_spawn_egg.json",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/albino_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/AlbinoSharkoRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/AlbinoSharkoEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoTamed",
+      "type": "livingentity",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/AlbinoSharkoTamedRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/AlbinoSharkoTamedEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_tamed_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoAttack",
+      "type": "livingentity",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/AlbinoSharkoAttackEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/AlbinoSharkoAttackRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_attack_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoStay",
+      "type": "livingentity",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/AlbinoSharkoStayEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/albino_sharko_stay_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/AlbinoSharkoStayRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoP",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharkotp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/AlbinoSharkoPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoTP",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_trp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/AlbinoSharkoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoSP",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/AlbinoSharkoSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharko",
+      "type": "livingentity",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/RareSharkoEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/RareSharkoRenderer.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/rare_sharko_biome_modifier.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkoTamed",
+      "type": "livingentity",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/RareSharkoTamedRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/RareSharkoTamedEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_tamed_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkoAttack",
+      "type": "livingentity",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_attack_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/RareSharkoAttackRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/RareSharkoAttackEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkoStay",
+      "type": "livingentity",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/RareSharkoStayRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/RareSharkoStayEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/rare_sharko_stay_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkoP",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkoPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkoTP",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkoSP",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkoSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkTAP",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_shark_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/AlbinoSharkTAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "RareSharkTAP",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shark_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/RareSharkTAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharko",
+      "type": "livingentity",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/LegendarySharkoEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/LegendarySharkoRenderer.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/legendary_sharko_biome_modifier.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoTamed",
+      "type": "livingentity",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/LegendarySharkoTamedRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/LegendarySharkoTamedEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoAttack",
+      "type": "livingentity",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/LegendarySharkoAttackRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/LegendarySharkoAttackEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_attack_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoStay",
+      "type": "livingentity",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/LegendarySharkoStayRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/LegendarySharkoStayEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/legendary_sharko_stay_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoP",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkoPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoTP",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoSP",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkoSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoTAP",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/LegendarySharkoTAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharko",
+      "type": "livingentity",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/MythicSharkoEntity.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/mythic_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/MythicSharkoRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoTamed",
+      "type": "livingentity",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/MythicSharkoTamedRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/MythicSharkoTamedEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoAttack",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/MythicSharkoAttackEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_attack_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/MythicSharkoAttackRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoStay",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/MythicSharkoStayRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/mythic_sharko_stay_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/MythicSharkoStayEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoP",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicSharkoPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoTP",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicSharkoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoSP",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicSharkoSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "MythicSharkoTAP",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/MythicSharkoTAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoPlush",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_plush.json",
+          "src/main/java/net/mcreator/aaesharkos/item/ExoticSharkoPlushItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ExoticSharkoCloth",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_cloth.json",
+          "src/main/java/net/mcreator/aaesharkos/item/ExoticSharkoClothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Exsh",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/exsh.json"
+        ]
+      }
+    },
+    {
+      "name": "Exsch",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/exsch.json"
+        ]
+      }
+    },
+    {
+      "name": "Exsl",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/exsl.json"
+        ]
+      }
+    },
+    {
+      "name": "Exsb",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/exsb.json"
+        ]
+      }
+    },
+    {
+      "name": "Exc",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/exc.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticShark",
+      "type": "armor",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_shark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_shark_leggings.json",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_shark_chestplate.json",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_shark_boots.json",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_shark_helmet.json",
+          "src/main/java/net/mcreator/aaesharkos/item/ExoticSharkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ExoticSharkHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_shark_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExoticSharkChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_shark_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExoticSharkLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_shark_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExoticSharkBootsTickEvent",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_shark_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExoticCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_cookie_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticCookiePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EC",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/ec.json"
+        ]
+      }
+    },
+    {
+      "name": "EEC",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/eec.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticCookie",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_cookie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/ExoticCookieItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_cookie.json"
+        ]
+      }
+    },
+    {
+      "name": "EnchantedExoticCookie",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_exotic_cookie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/enchanted_exotic_cookie.json",
+          "src/main/java/net/mcreator/aaesharkos/item/EnchantedExoticCookieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ExoticSharko",
+      "type": "livingentity",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/exotic_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/ExoticSharkoEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/ExoticSharkoRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoTamed",
+      "type": "livingentity",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/ExoticSharkoTamedEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/ExoticSharkoTamedRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_tamed_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoAttack",
+      "type": "livingentity",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/ExoticSharkoAttackEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/ExoticSharkoAttackRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_attack_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoStay",
+      "type": "livingentity",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/ExoticSharkoStayRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/ExoticSharkoStayEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/exotic_sharko_stay_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoP",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkoPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoTP",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoSP",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkoSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoTAP",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/ExoticSharkoTAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EnchantedExoticCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_exotic_cookie_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EnchantedExoticCookiePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantedGoldenCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_cookie_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EnchantedGoldenCookiePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharko",
+      "type": "livingentity",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/engie_sharko_biome_modifier.json",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoTamed",
+      "type": "livingentity",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_tamed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoTamedRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoTamedEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_tamed_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoAttack",
+      "type": "livingentity",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_attack_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoAttackEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoAttackRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoStay",
+      "type": "livingentity",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_stay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_stay_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoStayEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoStayRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoP",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoTP",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoSP",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoTAP",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoTAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieCookie",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_cookie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/EngieCookieItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_cookie.json"
+        ]
+      }
+    },
+    {
+      "name": "EnchantedEngieCookie",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_engie_cookie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/EnchantedEngieCookieItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/enchanted_engie_cookie.json"
+        ]
+      }
+    },
+    {
+      "name": "EngieCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_cookie_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieCookiePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantedEngieCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_engie_cookie_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EnchantedEngieCookiePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkoCloth",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_cloth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/EngieSharkoClothItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_cloth.json"
+        ]
+      }
+    },
+    {
+      "name": "ENC",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/enc.json"
+        ]
+      }
+    },
+    {
+      "name": "EENC",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eenc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/eenc.json"
+        ]
+      }
+    },
+    {
+      "name": "EngieShark",
+      "type": "armor",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_shark_boots.json",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_shark_chestplate.json",
+          "src/main/java/net/mcreator/aaesharkos/item/EngieSharkItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_shark_helmet.json",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_shark_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkHelmTick",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shark_helm_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkHelmTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkChestplateTick",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shark_chestplate_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkChestplateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkLeggingsTick",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shark_leggings_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkLeggingsTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkBootsTick",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shark_boots_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkBootsTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkoEntityDies",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EnCl",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "en_cl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/en_cl.json"
+        ]
+      }
+    },
+    {
+      "name": "Ensh",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ensh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/ensh.json"
+        ]
+      }
+    },
+    {
+      "name": "Ensch",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ensch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/ensch.json"
+        ]
+      }
+    },
+    {
+      "name": "Ensl",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ensl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/ensl.json"
+        ]
+      }
+    },
+    {
+      "name": "Ensb",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ensb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/ensb.json"
+        ]
+      }
+    },
+    {
+      "name": "SharkoHouseSpawnerUpdateTick",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_house_spawner_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkoHouseSpawnerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SharkoHouseSpawner",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_house_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/blockstates/sharko_house_spawner.json",
+          "src/main/resources/assets/aae_sharkos/models/item/sharko_house_spawner.json",
+          "src/main/java/net/mcreator/aaesharkos/block/SharkoHouseSpawnerBlock.java",
+          "src/main/resources/assets/aae_sharkos/models/block/sharko_house_spawner.json"
+        ]
+      }
+    },
+    {
+      "name": "NothingOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing_on_structure_instance_generated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/NothingOnStructureInstanceGeneratedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nothing",
+      "type": "structure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/world/features/NothingFeature.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/nothing_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkoPlush",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/item/EngieSharkoPlushItem.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkoRAREEntityDies",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRAREEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARETamed",
+      "type": "livingentity",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_tamed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARETamedRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARETamedEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRAREAttack",
+      "type": "livingentity",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRAREAttackEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRAREAttackRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_attack_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRAREStay",
+      "type": "livingentity",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_stay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_stay_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRAREStayRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRAREStayEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRAREP",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rarep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRAREPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARETP",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_raretp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARETPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARESP",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_raresp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARESPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARETAP",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_raretap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARETAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2",
+      "type": "livingentity",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARE2Renderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_2_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARE2Entity.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2Tamed",
+      "type": "livingentity",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_tamed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_2_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARE2TamedEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARE2TamedRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2Attack",
+      "type": "livingentity",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_2_attack_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARE2AttackRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARE2AttackEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2Stay",
+      "type": "livingentity",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_stay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARE2StayRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_2_stay_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRARE2StayEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2P",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARE2PProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2TP",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARE2TPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2SP",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_sp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARE2SPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRARE2TAP",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/EngieSharkoRARE2TAPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkHelmetOnEquip",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark_helmet_on_equip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/SharkHelmetOnEquipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlbinoSharkOnEquip",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_shark_on_equip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/AlbinoSharkOnEquipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngieSharkoRARE",
+      "type": "livingentity",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/engie_sharko_rare_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/EngieSharkoRARERenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/engie_sharko_rare_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/EngieSharkoRAREEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "SharkRec",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/shark_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "Asharkrec",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asharkrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/asharkrec.json"
+        ]
+      }
+    },
+    {
+      "name": "RareEngieSharkoPlush",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_engie_sharko_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/rare_engie_sharko_plush.json",
+          "src/main/java/net/mcreator/aaesharkos/item/RareEngieSharkoPlushItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PL1",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_1.json"
+        ]
+      }
+    },
+    {
+      "name": "PL2",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_2.json"
+        ]
+      }
+    },
+    {
+      "name": "PL3",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_3.json"
+        ]
+      }
+    },
+    {
+      "name": "PL4",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_4.json"
+        ]
+      }
+    },
+    {
+      "name": "PL5",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_5.json"
+        ]
+      }
+    },
+    {
+      "name": "PL6",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_6.json"
+        ]
+      }
+    },
+    {
+      "name": "PL7",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_7.json"
+        ]
+      }
+    },
+    {
+      "name": "PL8",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/recipes/pl_8.json"
+        ]
+      }
+    },
+    {
+      "name": "IfItemFoundDo",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_item_found_do",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/procedures/IfItemFoundDoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigSharko",
+      "type": "livingentity",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/big_sharko_spawn_egg.json",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigSharkoEntity.java",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigSharkoRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigAlbinoSharko",
+      "type": "livingentity",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_albino_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigAlbinoSharkoRenderer.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_albino_sharko_biome_modifier.json",
+          "src/main/resources/assets/aae_sharkos/models/item/big_albino_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigAlbinoSharkoEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigRareSharko",
+      "type": "livingentity",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_rare_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_rare_sharko_biome_modifier.json",
+          "src/main/resources/assets/aae_sharkos/models/item/big_rare_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigRareSharkoRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigRareSharkoEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigLegendarySharko",
+      "type": "livingentity",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_legendary_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_legendary_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigLegendarySharkoRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigLegendarySharkoEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/big_legendary_sharko_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigMythicSharko",
+      "type": "livingentity",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_mythic_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_mythic_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigMythicSharkoRenderer.java",
+          "src/main/resources/assets/aae_sharkos/models/item/big_mythic_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigMythicSharkoEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigExoticSharko",
+      "type": "livingentity",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_exotic_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigExoticSharkoRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigExoticSharkoEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/big_exotic_sharko_spawn_egg.json",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_exotic_sharko_biome_modifier.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigEngieSharko",
+      "type": "livingentity",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/entity/BigEngieSharkoEntity.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_engie_sharko_biome_modifier.json",
+          "src/main/resources/assets/aae_sharkos/models/item/big_engie_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigEngieSharkoRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigRareEngieSharko",
+      "type": "livingentity",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_rare_engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigRareEngieSharkoRenderer.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_rare_engie_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigRareEngieSharkoEntity.java",
+          "src/main/resources/assets/aae_sharkos/models/item/big_rare_engie_sharko_spawn_egg.json"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "BigRareEngieSharko2",
+      "type": "livingentity",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_rare_engie_sharko_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/BigRareEngieSharko2Renderer.java",
+          "src/main/resources/data/aae_sharkos/forge/biome_modifier/big_rare_engie_sharko_2_biome_modifier.json",
+          "src/main/resources/assets/aae_sharkos/models/item/big_rare_engie_sharko_2_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/entity/BigRareEngieSharko2Entity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    },
+    {
+      "name": "OldMythicSharko",
+      "type": "livingentity",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mythic_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_sharkos/models/item/old_mythic_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/aaesharkos/client/renderer/OldMythicSharkoRenderer.java",
+          "src/main/java/net/mcreator/aaesharkos/entity/OldMythicSharkoEntity.java"
+        ]
+      },
+      "path": "~/Sharkos"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.aae_sharkos.sharko_attack_spawn_egg": "Sharko Spawn Egg",
+      "item.aae_sharkos.mythic_sharko_cloth": "Mythic Sharko Cloth",
+      "item.aae_sharkos.engie_shark_helmet": "Engie Sharko Helmet",
+      "item.aae_sharkos.engie_sharko_rare_2_stay_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_sharkos.golden_cookie": "Golden Cookie",
+      "item.aae_sharkos.big_rare_sharko_spawn_egg": "Big Rare Sharko Spawn Egg",
+      "item.aae_sharkos.albino_sharko_cloth": "Albino Sharko Cloth",
+      "entity.aae_extra.sharko_attack": "Sharko",
+      "item.aae_extra.mythic_sharko_cloth": "Mythic Sharko Cloth",
+      "item.aae_extra.engie_sharko_rare_2_plush": "Sharko Plush",
+      "item.aae_extra.sharko_cloth": "Sharko Cloth",
+      "item.aae_extra.exotic_sharko_attack_spawn_egg": "Exotic Sharko Spawn Egg",
+      "item.aae_sharkos.exotic_cookie": "Exotic Cookie",
+      "item.aae_sharkos.sharko_plush": "Sharko Plush",
+      "entity.aae_sharkos.mythic_sharko_tamed": "Mythic Sharko",
+      "entity.aae_sharkos.big_engie_sharko": "Big Engie Sharko",
+      "entity.aae_sharkos.albino_sharko_tamed": "Albino Sharko",
+      "item.aae_sharkos.mythic_sharko_stay_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_extra.sharko_stay_spawn_egg": "Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_rare_2_attack": "Xgen Sharko",
+      "item.aae_extra.exotic_shark_chestplate": "Exotic Sharko Chestplate",
+      "entity.aae_extra.engie_sharko_attack": "Engie Sharko",
+      "item.aae_sharkos.enchanted_engie_cookie": "Enchanted Engie Cookie",
+      "item.aae_extra.exotic_shark_boots": "Exotic Sharko Boots",
+      "entity.aae_sharkos.legendary_sharko_stay": "Legendary Sharko",
+      "entity.aae_extra.legendary_sharko": "Legendary Sharko",
+      "item.aae_extra.mythic_shark_helmet": "Mythic Sharko Helmet",
+      "item.aae_extra.engie_shark_leggings": "Engie Sharko Leggings",
+      "item.aae_sharkos.albino_sharko_attack_spawn_egg": "Albino Sharko Spawn Egg",
+      "entity.aae_sharkos.engie_sharko_rare_tamed": "Engie Sharko",
+      "entity.aae_extra.legendary_sharko_tamed": "Legendary Sharko",
+      "entity.aae_extra.engie_sharko_rare_2_tamed": "Xgen Sharko",
+      "entity.aae_extra.exotic_sharko": "Exotic Sharko",
+      "item.aae_sharkos.sharko_stay_spawn_egg": "Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko": "Engie Sharko",
+      "entity.aae_extra.rare_sharko_attack": "Rare Sharko",
+      "item.aae_sharkos.engie_sharko_rare_tamed_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.albino_sharko_cloth": "Albino Sharko Cloth",
+      "item.aae_sharkos.rare_sharko_plush": "Rare Sharko Plush",
+      "item.aae_sharkos.mythic_shark_helmet": "Mythic Sharko Helmet",
+      "entity.aae_extra.mythic_sharko_tamed": "Mythic Sharko",
+      "item.aae_extra.mythic_sharko_tamed_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_extra.albino_shark_boots": "Albino Sharko Boots",
+      "item.aae_sharkos.shark_boots": "Sharko Boots",
+      "item.aae_sharkos.big_sharko_spawn_egg": "Big Sharko Spawn Egg",
+      "item.aae_extra.engie_sharko_rare_2_tamed_spawn_egg": "Xgen Sharko Spawn Egg",
+      "entity.aae_sharkos.rare_sharko_attack": "Rare Sharko",
+      "item.aae_sharkos.rare_shark_boots": "Rare Sharko Boots",
+      "item.aae_extra.mythic_shark_chestplate": "Mythic Sharko Chestplate",
+      "item.aae_extra.exotic_shark_leggings": "Exotic Sharko Leggings",
+      "item.aae_sharkos.rare_engie_sharko_plush": "Rare Engie Sharko Plush",
+      "entity.aae_sharkos.sharko_tamed": "Sharko",
+      "item.aae_extra.albino_shark_chestplate": "Albino Sharko Chestplate",
+      "item.aae_sharkos.legendary_sharko_stay_spawn_egg": "Legendary Sharko Spawn Egg",
+      "entity.aae_extra.rare_sharko": "Rare Sharko",
+      "entity.aae_sharkos.engie_sharko_attack": "Engie Sharko",
+      "item.aae_sharkos.legendary_sharko_cloth": "Legendary Sharko Cloth",
+      "entity.aae_sharkos.big_rare_engie_sharko": "Big Engie Sharko",
+      "entity.aae_sharkos.mythic_sharko_attack": "Mythic Sharko",
+      "item.aae_extra.albino_shark_helmet": "Albino Sharko Helmet",
+      "item.aae_extra.mythic_sharko_attack_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_sharkos.exotic_sharko_plush": "Exotic Sharko Plush",
+      "item.aae_sharkos.exotic_sharko_spawn_egg": "Exotic Sharko Spawn Egg",
+      "item.aae_extra.albino_sharko_tamed_spawn_egg": "Albino Sharko Spawn Egg",
+      "item.aae_sharkos.engie_sharko_rare_stay_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.legendary_sharko_plush": "Sharko Plush",
+      "item.aae_sharkos.albino_shark_chestplate": "Albino Sharko Chestplate",
+      "item.aae_extra.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
+      "item.aae_extra.rare_sharko_stay_spawn_egg": "Rare Sharko Spawn Egg",
+      "entity.aae_sharkos.sharko": "Sharko",
+      "item.aae_sharkos.big_rare_engie_sharko_2_spawn_egg": "Big Engie Sharko Spawn Egg",
+      "item.aae_extra.engie_cookie": "Engie Cookie",
+      "entity.aae_extra.exotic_sharko_attack": "Exotic Sharko",
+      "item.aae_extra.shark_chestplate": "Sharko Chestplate",
+      "entity.aae_sharkos.big_mythic_sharko": "Big Mythic Sharko",
+      "entity.aae_sharkos.sharko_attack": "Sharko",
+      "entity.aae_extra.engie_sharko_rare_2": "Xgen Sharko",
+      "item.aae_sharkos.legendary_shark_leggings": "Legendary Sharko Leggings",
+      "entity.aae_sharkos.rare_sharko_stay": "Rare Sharko",
+      "item.aae_sharkos.engie_sharko_rare_2_spawn_egg": "Engie Sharko Spawn Egg",
+      "entity.aae_sharkos.big_rare_engie_sharko_2": "Big Engie Sharko",
+      "item.aae_sharkos.albino_shark_boots": "Albino Sharko Boots",
+      "item.aae_sharkos.legendary_shark_boots": "Legendary Sharko Boots",
+      "item.aae_extra.sharko_tamed_spawn_egg": "Sharko Spawn Egg",
+      "item.aae_extra.engie_sharko_rare_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.legendary_sharko_stay_spawn_egg": "Legendary Sharko Spawn Egg",
+      "item.aae_extra.exotic_sharko_cloth": "Exotic Sharko Cloth",
+      "item.aae_extra.mythic_shark_boots": "Mythic Sharko Boots",
+      "entity.aae_sharkos.exotic_sharko": "Exotic Sharko",
+      "item.aae_extra.legendary_shark_boots": "Legendary Sharko Boots",
+      "item.aae_extra.engie_sharko_rare_stay_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_sharkos.legendary_shark_helmet": "Legendary Sharko Helmet",
+      "item.aae_extra.albino_shark_leggings": "Albino Sharko Leggings",
+      "entity.aae_sharkos.legendary_sharko": "Legendary Sharko",
+      "entity.aae_sharkos.mythic_sharko": "Mythic Sharko",
+      "item.aae_sharkos.legendary_shark_chestplate": "Legendary Sharko Chestplate",
+      "item.aae_sharkos.engie_shark_boots": "Engie Sharko Boots",
+      "item.aae_sharkos.big_rare_engie_sharko_spawn_egg": "Big Engie Sharko Spawn Egg",
+      "item.aae_extra.sharko_attack_spawn_egg": "Sharko Spawn Egg",
+      "item.aae_sharkos.engie_shark_chestplate": "Engie Sharko Chestplate",
+      "entity.aae_sharkos.big_exotic_sharko": "Big Exotic Sharko",
+      "item.aae_extra.enchanted_engie_cookie": "Enchanted Engie Cookie",
+      "item.aae_extra.rare_sharko_plush": "Sharko Plush",
+      "item.aae_sharkos.sharko_spawn_egg": "Sharko Spawn Egg",
+      "item.aae_sharkos.exotic_shark_leggings": "Exotic Sharko Leggings",
+      "item.aae_extra.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_sharkos.big_legendary_sharko_spawn_egg": "Big Legendary Sharko Spawn Egg",
+      "item.aae_extra.engie_shark_chestplate": "Engie Sharko Chestplate",
+      "entity.aae_sharkos.legendary_sharko_tamed": "Legendary Sharko",
+      "entity.aae_extra.exotic_sharko_tamed": "Exotic Sharko",
+      "item.aae_sharkos.engie_sharko_rare_attack_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.engie_sharko_rare_2_stay_spawn_egg": "Xgen Sharko Spawn Egg",
+      "entity.aae_extra.legendary_sharko_attack": "Legendary Sharko",
+      "item.aae_extra.enchanted_exotic_cookie": "Enchanted Exotic Cookie",
+      "entity.aae_sharkos.big_sharko": "Big Sharko",
+      "entity.aae_extra.albino_sharko": "Albino Sharko",
+      "block.aae_extra.sharko_house_spawner": "Sharko House Spawner",
+      "item.aae_extra.enchanted_golden_cookie": "Enchanted Golden Cookie",
+      "item.aae_extra.engie_sharko_attack_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.legendary_sharko_tamed_spawn_egg": "Legendary Sharko Spawn Egg",
+      "item.aae_sharkos.mythic_shark_chestplate": "Mythic Sharko Chestplate",
+      "entity.aae_sharkos.albino_sharko_attack": "Albino Sharko",
+      "entity.aae_extra.engie_sharko_rare_stay": "Engie Sharko",
+      "item.aae_sharkos.albino_shark_leggings": "Albino Sharko Leggings",
+      "item.aae_sharkos.albino_sharko_spawn_egg": "Albino Sharko Spawn Egg",
+      "entity.aae_extra.sharko": "Sharko",
+      "entity.aae_sharkos.sharko_stay": "Sharko",
+      "item.aae_sharkos.legendary_sharko_plush": "Legendary Sharko Plush",
+      "entity.aae_extra.albino_sharko_tamed": "Albino Sharko",
+      "item.aae_sharkos.engie_sharko_cloth": "Engie Sharko Cloth",
+      "entity.aae_sharkos.engie_sharko_rare_attack": "Engie Sharko",
+      "item.aae_sharkos.old_mythic_sharko_spawn_egg": "Old Mythic Sharko Spawn Egg",
+      "item.aae_extra.legendary_sharko_attack_spawn_egg": "Legendary Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_rare_attack": "Engie Sharko",
+      "item.aae_extra.shark_helmet": "Sharko Helmet",
+      "item.aae_extra.rare_shark_leggings": "Rare Sharko Leggings",
+      "item.aae_sharkos.engie_sharko_rare_2_tamed_spawn_egg": "Engie Sharko Spawn Egg",
+      "entity.aae_sharkos.legendary_sharko_attack": "Legendary Sharko",
+      "item.aae_sharkos.legendary_sharko_tamed_spawn_egg": "Legendary Sharko Spawn Egg",
+      "item.aae_extra.rare_shark_boots": "Rare Sharko Boots",
+      "item.aae_sharkos.exotic_sharko_tamed_spawn_egg": "Exotic Sharko Spawn Egg",
+      "entity.aae_extra.mythic_sharko_stay": "Mythic Sharko",
+      "entity.aae_sharkos.engie_sharko_rare": "Engie Sharko",
+      "item.aae_sharkos.shark_chestplate": "Sharko Chestplate",
+      "item.aae_sharkos.rare_sharko_cloth": "Rare Sharko Cloth",
+      "item.aae_extra.rare_sharko_cloth": "Rare Sharko Cloth",
+      "entity.aae_extra.sharko_tamed": "Sharko",
+      "entity.aae_sharkos.engie_sharko_tamed": "Engie Sharko",
+      "item.aae_extra.albino_sharko_attack_spawn_egg": "Albino Sharko Spawn Egg",
+      "item.aae_extra.sharko_spawn_egg": "Sharko Spawn Egg",
+      "item.aae_extra.engie_sharko_rare_attack_spawn_egg": "Engie Sharko Spawn Egg",
+      "entity.aae_extra.rare_sharko_tamed": "Rare Sharko",
+      "item.aae_extra.shark_leggings": "Sharko Leggings",
+      "item.aae_sharkos.albino_sharko_tamed_spawn_egg": "Albino Sharko Spawn Egg",
+      "item.aae_extra.rare_shark_chestplate": "Rare Sharko Chestplate",
+      "item.aae_sharkos.engie_sharko_plush": "Engie Sharko Plush",
+      "entity.aae_sharkos.rare_sharko_tamed": "Rare Sharko",
+      "item.aae_sharkos.big_mythic_sharko_spawn_egg": "Big Mythic Sharko Spawn Egg",
+      "entity.aae_sharkos.big_rare_sharko": "Big Rare Sharko",
+      "item.aae_sharkos.exotic_sharko_attack_spawn_egg": "Exotic Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_tamed": "Engie Sharko",
+      "item.aae_sharkos.rare_sharko_attack_spawn_egg": "Rare Sharko Spawn Egg",
+      "item.aae_sharkos.rare_shark_chestplate": "Rare Sharko Chestplate",
+      "item.aae_extra.exotic_shark_helmet": "Exotic Sharko Helmet",
+      "item.aae_extra.engie_sharko_stay_spawn_egg": "Engie Sharko Spawn Egg",
+      "entity.aae_extra.mythic_sharko_attack": "Mythic Sharko",
+      "entity.aae_sharkos.mythic_sharko_stay": "Mythic Sharko",
+      "entity.aae_extra.mythic_sharko": "Mythic Sharko",
+      "item.aae_sharkos.mythic_shark_boots": "Mythic Sharko Boots",
+      "item.aae_sharkos.enchanted_exotic_cookie": "Enchanted Exotic Cookie",
+      "block.aae_sharkos.sharko_house_spawner": "Sharko House Spawner",
+      "item.aae_extra.engie_sharko_plush": "Sharko Plush",
+      "entity.aae_sharkos.engie_sharko_rare_stay": "Engie Sharko",
+      "item.aae_extra.sharko_plush": "Sharko Plush",
+      "item.aae_sharkos.mythic_sharko_tamed_spawn_egg": "Mythic Sharko Spawn Egg",
+      "entity.aae_extra.sharko_stay": "Sharko",
+      "entity.aae_sharkos.engie_sharko_rare_2_stay": "Engie Sharko",
+      "item.aae_extra.albino_sharko_spawn_egg": "Albino Sharko Spawn Egg",
+      "item.aae_extra.rare_shark_helmet": "Rare Sharko Helmet",
+      "entity.aae_sharkos.rare_sharko": "Rare Sharko",
+      "entity.aae_sharkos.albino_sharko_stay": "Albino Sharko",
+      "item.aae_sharkos.mythic_sharko_plush": "Mythic Sharko Plush",
+      "entity.aae_sharkos.albino_sharko": "Albino Sharko",
+      "item.aae_sharkos.engie_sharko_rare_2_attack_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_sharkos.sharko_cloth": "Sharko Cloth",
+      "entity.aae_sharkos.exotic_sharko_stay": "Exotic Sharko",
+      "item.aae_sharkos.engie_sharko_tamed_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.engie_sharko_tamed_spawn_egg": "Engie Sharko Spawn Egg",
+      "entity.aae_sharkos.big_albino_sharko": "Big Albino Sharko",
+      "entity.aae_extra.rare_sharko_stay": "Rare Sharko",
+      "item.aae_sharkos.albino_sharko_plush": "Albino Sharko Plush",
+      "item.aae_extra.engie_sharko_rare_plush": "Sharko Plush",
+      "entity.aae_sharkos.engie_sharko_rare_2_tamed": "Engie Sharko",
+      "item.aae_sharkos.legendary_sharko_attack_spawn_egg": "Legendary Sharko Spawn Egg",
+      "item.aae_sharkos.rare_shark_helmet": "Rare Sharko Helmet",
+      "itemGroup.tabextras": "AAE Extras",
+      "entity.aae_extra.albino_sharko_stay": "Albino Sharko",
+      "item.aae_sharkos.engie_cookie": "Engie Cookie",
+      "entity.aae_sharkos.engie_sharko_rare_2_attack": "Engie Sharko",
+      "entity.aae_sharkos.engie_sharko_stay": "Engie Sharko",
+      "item.aae_sharkos.rare_shark_leggings": "Rare Sharko Leggings",
+      "item.aae_extra.engie_sharko_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_sharkos.exotic_sharko_stay_spawn_egg": "Exotic Sharko Spawn Egg",
+      "item.aae_sharkos.big_engie_sharko_spawn_egg": "Big Engie Sharko Spawn Egg",
+      "item.aae_sharkos.shark_leggings": "Sharko Leggings",
+      "item.aae_sharkos.mythic_sharko_attack_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_sharkos.engie_sharko_rare_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.exotic_sharko_spawn_egg": "Exotic Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_stay": "Engie Sharko",
+      "item.aae_sharkos.rare_sharko_spawn_egg": "Rare Sharko Spawn Egg",
+      "item.aae_extra.legendary_shark_chestplate": "Legendary Sharko Chestplate",
+      "entity.aae_extra.exotic_sharko_stay": "Exotic Sharko",
+      "item.aae_extra.engie_sharko_cloth": "Engie Sharko Cloth",
+      "item.aae_sharkos.engie_shark_leggings": "Engie Sharko Leggings",
+      "item.aae_extra.legendary_shark_helmet": "Legendary Sharko Helmet",
+      "item.aae_sharkos.albino_sharko_stay_spawn_egg": "Albino Sharko Spawn Egg",
+      "entity.aae_sharkos.exotic_sharko_attack": "Exotic Sharko",
+      "item.aae_sharkos.exotic_shark_boots": "Exotic Sharko Boots",
+      "item.aae_extra.albino_sharko_stay_spawn_egg": "Albino Sharko Spawn Egg",
+      "item.aae_extra.engie_sharko_rare_tamed_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_sharkos.sharko_tamed_spawn_egg": "Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_rare_2_stay": "Xgen Sharko",
+      "item.aae_sharkos.engie_sharko_stay_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_sharkos.mythic_shark_leggings": "Mythic Sharko Leggings",
+      "entity.aae_sharkos.big_legendary_sharko": "Big Legendary Sharko",
+      "item.aae_sharkos.big_exotic_sharko_spawn_egg": "Big Exotic Sharko Spawn Egg",
+      "item.aae_extra.mythic_shark_leggings": "Mythic Sharko Leggings",
+      "item.aae_extra.rare_sharko_spawn_egg": "Rare Sharko Spawn Egg",
+      "item.aae_sharkos.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_sharkos.exotic_sharko_cloth": "Exotic Sharko Cloth",
+      "item.aae_extra.exotic_cookie": "Exotic Cookie",
+      "item.aae_extra.engie_shark_helmet": "Engie Sharko Helmet",
+      "entity.aae_extra.legendary_sharko_stay": "Legendary Sharko",
+      "item.aae_extra.engie_sharko_rare_2_spawn_egg": "Xgen Sharko Spawn Egg",
+      "item.aae_extra.engie_shark_boots": "Engie Sharko Boots",
+      "entity.aae_sharkos.exotic_sharko_tamed": "Exotic Sharko",
+      "item.aae_extra.exotic_sharko_stay_spawn_egg": "Exotic Sharko Spawn Egg",
+      "item.aae_extra.shark_boots": "Sharko Boots",
+      "entity.aae_sharkos.engie_sharko": "Engie Sharko",
+      "item.aae_extra.rare_sharko_tamed_spawn_egg": "Rare Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_rare_tamed": "Engie Sharko",
+      "item.aae_sharkos.rare_sharko_tamed_spawn_egg": "Rare Sharko Spawn Egg",
+      "entity.aae_extra.engie_sharko_rare": "Engie Sharko",
+      "item.aae_extra.legendary_shark_leggings": "Legendary Sharko Leggings",
+      "item.aae_extra.albino_sharko_plush": "Sharko Plush",
+      "item.aae_extra.exotic_sharko_tamed_spawn_egg": "Exotic Sharko Spawn Egg",
+      "item.aae_sharkos.enchanted_golden_cookie": "Enchanted Golden Cookie",
+      "item.aae_sharkos.exotic_shark_helmet": "Exotic Sharko Helmet",
+      "item.aae_extra.engie_sharko_rare_2_attack_spawn_egg": "Xgen Sharko Spawn Egg",
+      "item.aae_sharkos.engie_sharko_attack_spawn_egg": "Engie Sharko Spawn Egg",
+      "entity.aae_sharkos.engie_sharko_rare_2": "Engie Sharko",
+      "item.aae_sharkos.big_albino_sharko_spawn_egg": "Big Albino Sharko Spawn Egg",
+      "item.aae_extra.legendary_sharko_cloth": "Legendary Sharko Cloth",
+      "item.aae_extra.mythic_sharko_plush": "Sharko Plush",
+      "item.aae_extra.mythic_sharko_stay_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.aae_sharkos.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
+      "entity.aae_sharkos.old_mythic_sharko": "Old Mythic Sharko",
+      "item.aae_extra.exotic_sharko_plush": "Sharko Plush",
+      "entity.aae_extra.albino_sharko_attack": "Albino Sharko",
+      "item.aae_sharkos.rare_sharko_stay_spawn_egg": "Rare Sharko Spawn Egg",
+      "item.aae_sharkos.exotic_shark_chestplate": "Exotic Sharko Chestplate",
+      "item.aae_extra.golden_cookie": "Golden Cookie",
+      "item.aae_sharkos.albino_shark_helmet": "Albino Sharko Helmet",
+      "item.aae_sharkos.engie_sharko_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.aae_extra.rare_sharko_attack_spawn_egg": "Rare Sharko Spawn Egg",
+      "item.aae_sharkos.shark_helmet": "Sharko Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Sharkos",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "aae_sharkos",
+    "modName": "AAE Sharkos",
+    "version": "10.23.24",
+    "description": "Made with MCreator",
+    "author": "EngieGames",
+    "websiteURL": "https://www.twitch.tv/engiegames",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "aae_sharkos_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Find the book.",
+    "modElementsPackage": "net.mcreator.aaesharkos",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

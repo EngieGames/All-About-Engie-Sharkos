@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "2": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "3": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    },
+    "5": {
+      "item": "aae_sharkos:engie_sharko_cloth"
+    }
+  },
+  "result": {
+    "item": "aae_sharkos:engie_shark_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lesharkhelm",
+    "enableBody": true,
+    "textureBody": "lesharkbody",
+    "enableLeggings": true,
+    "textureLeggings": "lesharkleggings",
+    "enableBoots": true,
+    "textureBoots": "lesharkboots",
+    "onHelmetTick": {
+      "name": "LegendarySharkHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "LegendarySharkChestplateTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "LegendarySharkLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "LegendarySharkBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Extras"
+    },
+    "armorTextureFile": "legendarysharko_",
+    "helmetName": "Legendary Sharko Helmet",
+    "bodyName": "Legendary Sharko Chestplate",
+    "leggingsName": "Legendary Sharko Leggings",
+    "bootsName": "Legendary Sharko Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 150,
+    "damageValueHelmet": 1024,
+    "damageValueBody": 1024,
+    "damageValueLeggings": 1024,
+    "damageValueBoots": 1024,
+    "enchantability": 36,
+    "toughness": 4.0,
+    "knockbackResistance": 0.7999999999999999,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "CUSTOM:LegendarySharkoCloth"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aae_sharkos:block/sharko_house_spawner"
+    }
+  }
+}
